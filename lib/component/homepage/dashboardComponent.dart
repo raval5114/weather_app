@@ -21,7 +21,7 @@ class _DashBoardState extends State<DashBoard> {
     super.initState();
     weatherAndForecast = Future.wait([
       weatherService.getWeather('Rajkot'),
-      weatherService.getForecast('Ra'),
+      weatherService.getForecast('Rajkot'),
     ]);
   }
 
